@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">FitnessMadeEasy</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome" />
+    <string name="enterDetails" />
+    <string name="name" />
+    <string name="address" />
+    <string name="email" />
+    <string name="password" />
+    <string name="age" />
+
+
+    <string name="very_very_skinny">You are Extremely Underweight</string>
+    <string name="very_skinny">You are Severely Underweight</string>
+    <string name="skinny">You are Underweight</string>
+    <string name="normal">You are a normal weight</string>
+    <string name="overweight">You are Overweight</string>
+    <string name="obese_series_i">Youre Obeisity is a series 1</string>
+    <string name="obese_series_ii">Youre Obeisity is a series 2</string>
+    <string name="obese_series_iii">Youre Obeisity is a series 3</string>
+    <string name="tv_weight">Weight</string>
+    <string name="tv_height">Height</string>
+    <string name="calc">Calculate</string>
+    <string name="title_activity_log">LogActivity</string>
+    <string name="title_activity_bmis">BmisActivity</string>
+    <string name="defaultAmount">00</string>
+    <string name="defaultMethod">00</string>
+    <string name="menuBmi">bmi</string>
+    <string name="menuReport">report</string>
+    <string name="userTitle">User Info</string>
+    <string name="reportTitle">Bmi Report</string>
+    <string name="postiveButoon">Ok</string>
+    <string name="negativeButton">Cancel</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="item_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_nav_user">NavUser</string>
+    <string name="title_home">StopWatch</string>
+    <string name="title_dashboard">BMI</string>
+    <string name="title_notifications">Map</string>
+
+</resources>

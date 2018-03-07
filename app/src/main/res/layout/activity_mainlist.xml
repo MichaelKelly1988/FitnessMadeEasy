@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/userTitle"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="31dp"
+            android:text="@string/userTitle"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:layout_below="@+id/userTitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.92"
+        android:divider="#d1d1d1"
+        android:dividerHeight="10dp"></ListView>
+
+    <Button
+        android:id="@+id/btSteps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tracker" />
+
+    <Button
+        android:id="@+id/Bmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onBmiClick"
+        android:text="BMI"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <Button
+        android:id="@+id/btStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Watch" />
+</LinearLayout>
+
+
+</LinearLayout>
